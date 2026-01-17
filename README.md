@@ -21,3 +21,9 @@ hands-on troubleshooting, system configuration, and technical documentation.
 ## Work In Progress
 This lab is actively being built and updated as part of an accelerated IT Technician
 skills refresh.
+
+## Windows Installation
+
+### ISO Acquisition
+Downloaded the official Windows 10 ISO from Microsoft using the Media Creation Tool
+to ensure authenticity and compatibility for system deployment.
