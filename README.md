@@ -1,22 +1,34 @@
 # Windows Workstation Deployment & IT Support Lab
 
+This project documents the deployment and initial configuration of a Windows 10 workstation in a virtualized environment using Oracle VirtualBox. It demonstrates core entry-level IT support and workstation provisioning skills, including operating system installation, system configuration, endpoint validation, and technical documentation.
+
+## Table of Contents
+- [Overview](#overview)
+- [Why This Lab Matters](#why-this-lab-matters)
+- [What I Learned](#what-i-learned)
+- [Skills Demonstrated](#skills-demonstrated)
+- [Phase 1: Virtual Machine Creation](#phase-1-virtual-machine-creation)
+- [Phase 2: Windows Installation](#phase-2-windows-installation)
+- [Phase 3: Out-of-Box-Experience-oobe](#phase-3-out-of-box-experience-oobe)
+- [Phase 4: Post-Deployment Validation](#phase-4-post-deployment-validation)
+- [Future Expansion](#future-expansion)
+
 ## Overview
-
-This lab documents the deployment and initial configuration of a Windows 10 workstation in a virtualized environment using Oracle VirtualBox.
-
-The objective of this project is to demonstrate **core entry-level IT support and workstation deployment skills**, including operating system installation, system configuration, endpoint validation, and technical documentation.
-
 This lab mirrors real-world responsibilities commonly performed in roles such as:
-
 - IT Technician  
 - Help Desk / Tier 1 Support  
 - Desktop Support  
 - IT Support Specialist  
 
----
+It is designed as both a portfolio project and a reproducible guide for those learning IT support fundamentals.
+
+## Why This Lab Matters
+In real-world IT environments, technicians are responsible not only for installing operating systems but also for ensuring devices are fully operational, secure, and properly documented before delivery to end users. This lab demonstrates the ability to follow structured deployment procedures, validate system health after installation, and document technical work clearly and professionally. These skills form the foundation of modern IT support, help desk, and desktop support roles.
+
+## What I Learned
+I learned how to configure a Windows workstation from the ground up, including user account setup, system settings, and baseline security hardening. I gained experience applying security policies, troubleshooting configuration issues, and documenting repeatable deployment steps. This lab improved my understanding of Windows administration fundamentals and helped me build confidence in diagnosing and resolving common system-level problems encountered in IT support environments.
 
 ## Skills Demonstrated
-
 - Workstation deployment and OS provisioning  
 - Virtual machine configuration and resource allocation  
 - Windows 10 installation from ISO  
@@ -26,10 +38,7 @@ This lab mirrors real-world responsibilities commonly performed in roles such as
 - Windows Update management  
 - Technical documentation and change tracking  
 
----
-
 ## Phase 1: Virtual Machine Creation
-
 Screenshots documenting virtual machine configuration:
 
 ![VM Name & OS](screenshots/vm_name_os.png)
@@ -38,18 +47,15 @@ Screenshots documenting virtual machine configuration:
 ![VM List](screenshots/vm_list.png)
 
 **Configuration details:**
-- Operating System: Windows 10 (64-bit)
-- Memory: 4 GB RAM
-- CPU: 2 processors
-- Storage: 60 GB dynamically allocated disk
-- Installation method: Manual (unattended install skipped)
+- Operating System: Windows 10 (64-bit)  
+- Memory: 4 GB RAM  
+- CPU: 2 processors  
+- Storage: 60 GB dynamically allocated disk  
+- Installation method: Manual (unattended install skipped)  
 
 This phase demonstrates proper preparation of a workstation prior to OS deployment.
 
----
-
 ## Phase 2: Windows Installation
-
 Screenshots from the Windows setup process:
 
 ![Language Selection](screenshots/windows_setup_language.png)
@@ -62,19 +68,16 @@ Screenshots from the Windows setup process:
 ![Initialization](screenshots/windows_initialization.png)
 
 **Process performed:**
-1. Booted system from Windows ISO
-2. Configured regional and keyboard settings
-3. Skipped activation (lab environment)
-4. Selected Windows 10 Pro
-5. Performed custom installation on unallocated disk
-6. Completed OS installation and automatic reboot
+1. Booted system from Windows ISO  
+2. Configured regional and keyboard settings  
+3. Skipped activation (lab environment)  
+4. Selected Windows 10 Pro  
+5. Performed custom installation on unallocated disk  
+6. Completed OS installation and automatic reboot  
 
 This phase reflects standard workstation imaging and deployment workflows used in IT environments.
 
----
-
 ## Phase 3: Out-of-Box Experience (OOBE)
-
 Screenshots from initial system configuration:
 
 ![Region Selection](screenshots/oobe_region.png)
@@ -87,61 +90,31 @@ Screenshots from initial system configuration:
 ![Desktop Ready](screenshots/desktop.png)
 
 **Account configuration:**
-- Local administrator account created for system access
-- Offline account used (typical for enterprise environments)
-- Security questions populated with placeholder values
-- Privacy settings reviewed and configured
+- Local administrator account created for system access  
+- Offline account used (typical for enterprise environments)  
+- Security questions populated with placeholder values  
+- Privacy settings reviewed and configured  
 
 This phase demonstrates secure initial workstation setup prior to user handoff.
 
----
-
 ## Phase 4: Post-Deployment Validation
-
 Screenshots demonstrating system verification:
 
 ![Device Manager Inspection](screenshots/device_manager.png)
 ![Windows Updates Applied](screenshots/windows_updates.png)
 
 **Validation steps performed:**
-- Verified all hardware devices installed correctly
-- Checked for missing or failed drivers
-- Installed all available Windows updates
-- Confirmed system stability and readiness for use
+- Verified all hardware devices installed correctly  
+- Checked for missing or failed drivers  
+- Installed all available Windows updates  
+- Confirmed system stability and readiness for use  
 
 This reflects standard IT post-imaging validation procedures.
 
----
-
-## Why This Lab Matters
-
-In real-world IT environments, technicians are responsible not only for installing systems, but for ensuring devices are **fully operational, secure, and properly documented** before delivery to end users.
-
-This lab demonstrates the ability to:
-
-- Follow structured deployment procedures  
-- Validate system health after installation  
-- Document technical work clearly and professionally  
-
-These skills are foundational to entry-level IT and support roles.
-
----
-
-## What I Learned
-
-I learned how to configure a Windows workstation from the ground up, including user account setup, system settings, and baseline security hardening. I gained experience applying security policies, troubleshooting configuration issues, and documenting repeatable deployment steps. This lab improved my understanding of Windows administration fundamentals and helped me build confidence in diagnosing and resolving common system-level problems encountered in IT support environments.
-
----
-
 ## Future Expansion
-
 This lab can be expanded to include:
-
-- User account management
-- Snapshot creation and rollback
-- Simulated troubleshooting scenarios
-- Software installation and removal
-- Basic network configuration
-
----
-
+- User account management  
+- Snapshot creation and rollback  
+- Simulated troubleshooting scenarios  
+- Software installation and removal  
+- Basic network configuration  
