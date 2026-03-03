@@ -127,6 +127,12 @@ These skills are foundational to entry-level IT and support roles.
 
 ---
 
+## What I Learned
+
+I learned how to configure a Windows workstation from the ground up, including user account setup, system settings, and baseline security hardening. I gained experience applying security policies, troubleshooting configuration issues, and documenting repeatable deployment steps. This lab improved my understanding of Windows administration fundamentals and helped me build confidence in diagnosing and resolving common system-level problems encountered in IT support environments.
+
+---
+
 ## Future Expansion
 
 This lab can be expanded to include:
